@@ -1,0 +1,322 @@
+[
+  {
+    "id": "proj1",
+    "category": "project",
+    "projectCategory": "webApp",
+    "bannerImage": "https://source.unsplash.com/random/800x400/?food,chef",
+    "allImages": [
+      "https://source.unsplash.com/random/300x200/?kitchen",
+      "https://source.unsplash.com/random/300x200/?chef",
+      "https://source.unsplash.com/random/300x200/?restaurant",
+      "https://source.unsplash.com/random/300x200/?bar",
+      "https://source.unsplash.com/random/300x200/?food"
+    ],
+    "title": "Restaurant Management System 01",
+    "description": "This web app is designed for chefs and bar workers...",
+    "technologyUsed": [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "TailwindCSS"
+    ],
+    "liveLink": "https://restaurant-management.example.com",
+    "sharesCount": 12,
+    "savesCount": 5,
+    "commentsCount": 8,
+    "likesCount": 43
+  },
+  {
+    "id": "proj1",
+    "category": "project",
+    "projectCategory": "webApp",
+    "bannerImage": "https://source.unsplash.com/random/800x400/?food,chef",
+    "allImages": [
+      "https://source.unsplash.com/random/300x200/?kitchen",
+      "https://source.unsplash.com/random/300x200/?chef",
+      "https://source.unsplash.com/random/300x200/?restaurant",
+      "https://source.unsplash.com/random/300x200/?bar",
+      "https://source.unsplash.com/random/300x200/?food"
+    ],
+    "title": "Restaurant Management System 01",
+    "description": "This web app is designed for chefs and bar workers...",
+    "technologyUsed": [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "TailwindCSS"
+    ],
+    "liveLink": "https://restaurant-management.example.com",
+    "sharesCount": 12,
+    "savesCount": 5,
+    "commentsCount": 8,
+    "likesCount": 43
+  },
+  {
+    "id": "proj2",
+    "category": "project",
+    "projectCategory": "Landing",
+    "bannerImage": "https://source.unsplash.com/random/800x400/?food,chef",
+    "allImages": [
+      "https://source.unsplash.com/random/300x200/?kitchen",
+      "https://source.unsplash.com/random/300x200/?chef",
+      "https://source.unsplash.com/random/300x200/?restaurant",
+      "https://source.unsplash.com/random/300x200/?bar",
+      "https://source.unsplash.com/random/300x200/?food"
+    ],
+    "title": "Restaurant Management System 02",
+    "description": "This web app is designed for chefs and bar workers...",
+    "technologyUsed": [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "TailwindCSS"
+    ],
+    "liveLink": "https://restaurant-management.example.com",
+    "sharesCount": 12,
+    "savesCount": 5,
+    "commentsCount": 8,
+    "likesCount": 43
+  },
+  {
+    "id": "proj2",
+    "category": "project",
+    "projectCategory": "Landing",
+    "bannerImage": "https://source.unsplash.com/random/800x400/?food,chef",
+    "allImages": [
+      "https://source.unsplash.com/random/300x200/?kitchen",
+      "https://source.unsplash.com/random/300x200/?chef",
+      "https://source.unsplash.com/random/300x200/?restaurant",
+      "https://source.unsplash.com/random/300x200/?bar",
+      "https://source.unsplash.com/random/300x200/?food"
+    ],
+    "title": "Restaurant Management System 02",
+    "description": "This web app is designed for chefs and bar workers...",
+    "technologyUsed": [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "TailwindCSS"
+    ],
+    "liveLink": "https://restaurant-management.example.com",
+    "sharesCount": 12,
+    "savesCount": 5,
+    "commentsCount": 8,
+    "likesCount": 43
+  },
+  {
+    "id": "proj3",
+    "category": "project",
+    "projectCategory": "Static",
+    "bannerImage": "https://source.unsplash.com/random/800x400/?food,chef",
+    "allImages": [
+      "https://source.unsplash.com/random/300x200/?kitchen",
+      "https://source.unsplash.com/random/300x200/?chef",
+      "https://source.unsplash.com/random/300x200/?restaurant",
+      "https://source.unsplash.com/random/300x200/?bar",
+      "https://source.unsplash.com/random/300x200/?food"
+    ],
+    "title": "Restaurant Management System 03",
+    "description": "This web app is designed for chefs and bar workers...",
+    "technologyUsed": [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "TailwindCSS"
+    ],
+    "liveLink": "https://restaurant-management.example.com",
+    "sharesCount": 12,
+    "savesCount": 5,
+    "commentsCount": 8,
+    "likesCount": 43
+  },
+  {
+    "id": "proj3",
+    "category": "project",
+    "projectCategory": "Static",
+    "bannerImage": "https://source.unsplash.com/random/800x400/?food,chef",
+    "allImages": [
+      "https://source.unsplash.com/random/300x200/?kitchen",
+      "https://source.unsplash.com/random/300x200/?chef",
+      "https://source.unsplash.com/random/300x200/?restaurant",
+      "https://source.unsplash.com/random/300x200/?bar",
+      "https://source.unsplash.com/random/300x200/?food"
+    ],
+    "title": "Restaurant Management System 03",
+    "description": "This web app is designed for chefs and bar workers...",
+    "technologyUsed": [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "TailwindCSS"
+    ],
+    "liveLink": "https://restaurant-management.example.com",
+    "sharesCount": 12,
+    "savesCount": 5,
+    "commentsCount": 8,
+    "likesCount": 43
+  },
+  {
+    "id": "proj4",
+    "category": "project",
+    "projectCategory": "webApp",
+    "bannerImage": "https://source.unsplash.com/random/800x400/?food,chef",
+    "allImages": [
+      "https://source.unsplash.com/random/300x200/?kitchen",
+      "https://source.unsplash.com/random/300x200/?chef",
+      "https://source.unsplash.com/random/300x200/?restaurant",
+      "https://source.unsplash.com/random/300x200/?bar",
+      "https://source.unsplash.com/random/300x200/?food"
+    ],
+    "title": "Restaurant Management System 04",
+    "description": "This web app is designed for chefs and bar workers...",
+    "technologyUsed": [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "TailwindCSS"
+    ],
+    "liveLink": "https://restaurant-management.example.com",
+    "sharesCount": 12,
+    "savesCount": 5,
+    "commentsCount": 8,
+    "likesCount": 43
+  },
+  {
+    "id": "proj5",
+    "category": "project",
+    "projectCategory": "webApp",
+    "bannerImage": "https://source.unsplash.com/random/800x400/?food,chef",
+    "allImages": [
+      "https://source.unsplash.com/random/300x200/?kitchen",
+      "https://source.unsplash.com/random/300x200/?chef",
+      "https://source.unsplash.com/random/300x200/?restaurant",
+      "https://source.unsplash.com/random/300x200/?bar",
+      "https://source.unsplash.com/random/300x200/?food"
+    ],
+    "title": "Restaurant Management System 04",
+    "description": "This web app is designed for chefs and bar workers...",
+    "technologyUsed": [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "TailwindCSS"
+    ],
+    "liveLink": "https://restaurant-management.example.com",
+    "sharesCount": 12,
+    "savesCount": 5,
+    "commentsCount": 8,
+    "likesCount": 43
+  },
+  {
+    "id": "blog1",
+    "category": "blog",
+    "bannerImage": "https://source.unsplash.com/random/800x400/?food,chef",
+    "allImages": [
+      "https://source.unsplash.com/random/300x200/?kitchen",
+      "https://source.unsplash.com/random/300x200/?chef",
+      "https://source.unsplash.com/random/300x200/?restaurant",
+      "https://source.unsplash.com/random/300x200/?bar",
+      "https://source.unsplash.com/random/300x200/?food"
+    ],
+    "title": " blog Restaurant Management System",
+    "description": "This web app is designed for chefs and bar workers...",
+    "technologyUsed": [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "TailwindCSS"
+    ],
+    "liveLink": "https://restaurant-management.example.com",
+    "sharesCount": 12,
+    "savesCount": 5,
+    "commentsCount": 8,
+    "likesCount": 43
+  },
+  {
+    "id": "blog5",
+    "category": "blog",
+    "bannerImage": "https://source.unsplash.com/random/800x400/?food,chef",
+    "allImages": [
+      "https://source.unsplash.com/random/300x200/?kitchen",
+      "https://source.unsplash.com/random/300x200/?chef",
+      "https://source.unsplash.com/random/300x200/?restaurant",
+      "https://source.unsplash.com/random/300x200/?bar",
+      "https://source.unsplash.com/random/300x200/?food"
+    ],
+    "title": " blog Restaurant Management System",
+    "description": "This web app is designed for chefs and bar workers...",
+    "technologyUsed": [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "TailwindCSS"
+    ],
+    "liveLink": "https://restaurant-management.example.com",
+    "sharesCount": 12,
+    "savesCount": 5,
+    "commentsCount": 8,
+    "likesCount": 43
+  },
+  {
+    "id": "blog2",
+    "category": "blog",
+    "bannerImage": "https://source.unsplash.com/random/800x400/?food,chef",
+    "allImages": [
+      "https://source.unsplash.com/random/300x200/?kitchen",
+      "https://source.unsplash.com/random/300x200/?chef",
+      "https://source.unsplash.com/random/300x200/?restaurant",
+      "https://source.unsplash.com/random/300x200/?bar",
+      "https://source.unsplash.com/random/300x200/?food"
+    ],
+    "title": " blog Restaurant Management System",
+    "description": "This web app is designed for chefs and bar workers...",
+    "technologyUsed": [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "TailwindCSS"
+    ],
+    "liveLink": "https://restaurant-management.example.com",
+    "sharesCount": 12,
+    "savesCount": 5,
+    "commentsCount": 8,
+    "likesCount": 43
+  },
+  {
+    "id": "blog3",
+    "category": "blog",
+    "bannerImage": "https://source.unsplash.com/random/800x400/?food,chef",
+    "allImages": [
+      "https://source.unsplash.com/random/300x200/?kitchen",
+      "https://source.unsplash.com/random/300x200/?chef",
+      "https://source.unsplash.com/random/300x200/?restaurant",
+      "https://source.unsplash.com/random/300x200/?bar",
+      "https://source.unsplash.com/random/300x200/?food"
+    ],
+    "title": " blog Restaurant Management System",
+    "description": "This web app is designed for chefs and bar workers...",
+    "technologyUsed": [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "TailwindCSS"
+    ],
+    "liveLink": "https://restaurant-management.example.com",
+    "sharesCount": 12,
+    "savesCount": 5,
+    "commentsCount": 8,
+    "likesCount": 43
+  }
+]

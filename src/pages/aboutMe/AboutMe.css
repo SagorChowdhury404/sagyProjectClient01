@@ -1,0 +1,6 @@
+.aboutMeBanner{
+    background-image: url('../../assets/aboutMe/aboutPageBgBanar.jpg');
+}
+.rotated-bg {
+  transform: rotate(180deg);
+}
