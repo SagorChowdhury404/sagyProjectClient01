@@ -1,5 +1,5 @@
 
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { FaCartPlus } from "react-icons/fa6";
 
 const Navbar = () => {
@@ -14,17 +14,85 @@ const Navbar = () => {
 
   const navLinks = (
     <>
-      <li><Link to="/">Home</Link></li>
-      <li><Link to="/MoreAboutMe">About Me</Link></li>
-      <li><Link to="/projectAll"> projects </Link></li>
-      <li><Link to="/blogs"> blogs </Link></li>
-      <li><Link to="/contact">Contact</Link></li>
-      <li><Link to="/Services">Services</Link></li>
+      {/* Home navbar  */}
+      <li>
+        <NavLink
+          to="/"
+          className={({ isActive }) =>
+            isActive ? "text-yellow-400 font-semibold" : "hover:text-yellow-300"
+          }
+        >
+          Home
+        </NavLink>
+      </li>
+
+
+      <li>
+        <NavLink
+          to="/MoreAboutMe"
+          className={({ isActive }) =>
+            isActive ? "text-yellow-400 font-semibold" : "hover:text-yellow-300"
+          }
+        >
+          About Me
+        </NavLink>
+      </li>
+
+      {/* projects navbar  */}
+      <li>
+        <NavLink
+          to="/projectAll"
+          className={({ isActive }) =>
+            isActive ? "text-yellow-400 font-semibold" : "hover:text-yellow-300"
+          }
+        >
+          projects
+        </NavLink>
+
+      </li>
+      <li><Link to="/">  </Link></li>
+      {/* blogs navbar  */}
+      <li>
+        <NavLink
+          to="/blogs"
+          className={({ isActive }) =>
+            isActive ? "text-yellow-400 font-semibold" : "hover:text-yellow-300"
+          }
+        >
+          blogs
+        </NavLink>
+      </li>
+
+
+      <li>
+        <NavLink
+          to="/contact"
+          className={({ isActive }) =>
+            isActive ? "text-yellow-400 font-semibold" : "hover:text-yellow-300"
+          }
+        >
+          Contact
+        </NavLink>
+      </li>
+
+
+      <li>
+        <NavLink
+          to="/Services"
+          className={({ isActive }) =>
+            isActive ? "text-yellow-400 font-semibold" : "hover:text-yellow-300"
+          }
+        >
+          Services
+        </NavLink>
+      </li>
       {/* <li ><a className=""> <Link to='/dashboard'> Dashboard  </Link> </a></li> */}
     </>
   );
 
   return (
+    //todo { if i going to use this {fixed top-0 z-50  navbar is came responsive } <div className="w-full fixed top-0 z-50 shadow-md bg-black bg-opacity-70 text-white backdrop-blur-md"> 
+
     <div className=" w-full z-50 shadow-md bg-black bg-opacity-35 text-white">
 
       <div className="max-w-screen-xl mx-auto px-4">
@@ -44,7 +112,7 @@ const Navbar = () => {
             </div>
             <Link
               to="/"
-              className="hidden md:inline-block px-4 py-2 bg-yellow-400 text-black text-xl normal-case font-medium"
+              className="hidden md:inline-block px-4 py-2 bg-yellow-400 text-black text-xl normal-case font-medium sans"
             >
               Sagor Cowdhury
             </Link>

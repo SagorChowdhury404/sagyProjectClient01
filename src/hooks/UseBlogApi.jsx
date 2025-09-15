@@ -1,18 +1,16 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
-const UseProjectApi = () => {
-    const [projects, setProjects] = useState([]);
+const UseBlogApi = () => {
+    const [blogs, setBlogs] = useState([]);
     const [loading, setLoading] = useState(true);
-    // console.log(projects);
-
+    
+    console.log('/blogs',blogs)
 
     useEffect(() => {
-        // projects.json
-        //http://localhost:3000/projects
-        fetch('projects.json')
+        fetch('http://localhost:3000/blogs')
             .then(response => response.json())
             .then(json => {
-                setProjects(json);
+                setBlogs(json);
                 setLoading(false);
             })
             .catch(err => {
@@ -21,7 +19,7 @@ const UseProjectApi = () => {
             });
     }, []);
 
-    return [projects, loading];
+    return [blogs, loading];
 };
 
-export default UseProjectApi;
+export default UseBlogApi;

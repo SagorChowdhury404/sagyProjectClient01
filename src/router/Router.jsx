@@ -8,6 +8,9 @@ import ProjectAll from "../pages/ProjectsPage/ProjectAll";
 import Blogs from "../pages/BlogPages/Blogs";
 import Services from "../pages/shared/services/Services";
 import ProjectCardDetails from "../pages/HomeProjects/projectCardDetails/ProjectCardDetails";
+import WebAppsDevelopment from "../pages/whatIDo/WebAppsDevelopment";
+import LinkedinPages from "../pages/whatIDo/LinkedinPages";
+import SeoPages from "../pages/whatIDo/SeoPages";
 
 
 
@@ -25,6 +28,18 @@ export const router = createBrowserRouter([
             {
                 path: "/MoreAboutMe",
                 element: <MoreAboutMe></MoreAboutMe>,
+            },
+            {
+                path: "/WebAppsDevelopment",
+                element: <WebAppsDevelopment></WebAppsDevelopment>,
+            },
+            {
+                path: "/LinkedinPages",
+                element: <LinkedinPages></LinkedinPages>,
+            },
+            {
+                path: "/SeoPages",
+                element: <SeoPages></SeoPages>,
             },
 
             {

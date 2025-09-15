@@ -27,9 +27,14 @@ const AboutMe = () => {
 
 
                         </p>
-                        <button className="btn btn-outline border-0 border-b-4 mt-6 text-white hover:bg-white hover:text-slate-800 transition duration-300">
-                            <Link to='MoreAboutMe'> More About Me</Link>
-                        </button>
+                        <section className="flex justify-between ">
+                            <button className="btn btn-ou border-0 border-b-4 mt-6 text-white bg-blue-600 hover:white ">
+                                <Link to='MoreAboutMe'> Contact with Me</Link>
+                            </button>
+                            <button className="btn btn-outline border-0 border-b-4 mt-6 text-white hover:bg-white hover:text-slate-800 transition duration-300 hover:white ">
+                                <Link to='MoreAboutMe'> More About Me</Link>
+                            </button>
+                        </section>
                     </div>
 
                 </div>

@@ -2,8 +2,11 @@ import { useLoaderData } from "react-router-dom";
 
 const ProjectCardDetails = () => {
     const project = useLoaderData();
-    console.log(project)
+    
+    console.log(project);
+
     return (
+
         <div>
             <h1>projectCardDetails</h1>
             <div>

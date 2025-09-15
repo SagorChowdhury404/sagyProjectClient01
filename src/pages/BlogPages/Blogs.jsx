@@ -1,20 +1,20 @@
 import { Helmet } from "react-helmet-async";
 import Contact from "../shared/contact/Contact";
-import UseProjectApi from "../../hooks/UseProjectApi";
 import LoadingPage from "../shared/loadingPage/LoadingPage";
 import ProjectCard from "../HomeProjects/projectCard/ProjectCard";
 import SectionTitle from "../shared/sectionTittle/SectionTittle";
+import UseBlogApi from "../../hooks/UseBlogApi";
 
 const Blogs = () => {
-    const [projects, loading] = UseProjectApi();
+    const [blogs, loading] = UseBlogApi();
     if (loading) return <LoadingPage></LoadingPage >;
 
     // ✅ Filter projects with projectCategory "project"
-    const category = projects.filter(project => project.category === "blog");
+    const category = blogs.filter(project => project.category === "blog");
     return (
         <div>
             <Helmet> <title>Blogs</title> </Helmet>
-           <section>
+            <section>
                 <SectionTitle heading="blog Are"
                     subHeading="our client story Journey to a Personal Brand "></SectionTitle>
             </section>
@@ -27,13 +27,6 @@ const Blogs = () => {
 
 
 
-
-
-
-
-
-
-            <Contact></Contact>
         </div>
     );
 };
