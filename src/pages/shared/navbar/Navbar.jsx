@@ -4,7 +4,7 @@ import { FaCartPlus } from "react-icons/fa6";
 
 const Navbar = () => {
 
-  const user = true;
+  const user = false;
 
   const handleLogout = () => {
     console.log('logout')
@@ -46,7 +46,7 @@ const Navbar = () => {
             isActive ? "text-yellow-400 font-semibold" : "hover:text-yellow-300"
           }
         >
-          projects
+          Projects
         </NavLink>
 
       </li>
@@ -59,7 +59,7 @@ const Navbar = () => {
             isActive ? "text-yellow-400 font-semibold" : "hover:text-yellow-300"
           }
         >
-          blogs
+          Blogs
         </NavLink>
       </li>
 
@@ -76,16 +76,7 @@ const Navbar = () => {
       </li>
 
 
-      <li>
-        <NavLink
-          to="/Services"
-          className={({ isActive }) =>
-            isActive ? "text-yellow-400 font-semibold" : "hover:text-yellow-300"
-          }
-        >
-          Services
-        </NavLink>
-      </li>
+
       {/* <li ><a className=""> <Link to='/dashboard'> Dashboard  </Link> </a></li> */}
     </>
   );
@@ -93,7 +84,7 @@ const Navbar = () => {
   return (
     //todo { if i going to use this {fixed top-0 z-50  navbar is came responsive } <div className="w-full fixed top-0 z-50 shadow-md bg-black bg-opacity-70 text-white backdrop-blur-md"> 
 
-    <div className=" w-full z-50 shadow-md bg-black bg-opacity-35 text-white">
+    <div className=" w-full z-50 shadow-md bg-white  text-black">
 
       <div className="max-w-screen-xl mx-auto px-4">
         <div className="navbar py-2">
@@ -128,11 +119,19 @@ const Navbar = () => {
 
           {/* Navbar End (Auth Buttons) */}
           <div className="navbar-end flex items-center gap-3">
+
+
+
+
             <Link to='/dashboard/cart'>
               <button className="btn bg-white text-black">
                 <FaCartPlus /> <div className="badge badge-sm badge-secondary">+</div>
               </button>
             </Link>
+
+
+
+
             {user ? (
               <div className="dropdown dropdown-end">
                 <button tabIndex={0} className="btn btn-ghost btn-circle avatar">
@@ -169,9 +168,14 @@ const Navbar = () => {
                 </ul>
               </div>
             ) : (
-              <Link to="/login">
-                <button className="btn bg-blue-600 hover:bg-blue-700 text-white text-lg">Login</button>
-              </Link>
+
+              <button
+                type="button"
+                className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full transition-colors duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+              >
+                Login ↗
+              </button>
+
             )}
           </div>
         </div>

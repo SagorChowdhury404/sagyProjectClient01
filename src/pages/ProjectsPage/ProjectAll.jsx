@@ -106,7 +106,7 @@ const ProjectAll = () => {
 
                             {/* //Landing Website */}
                             <div className="text-center mb-14 ">
-                                <h3 className="text-3xl font-semibold">Static Website </h3>
+                                <h3 className="text-3xl font-semibold">Landing Website </h3>
                                 {/* <span className="text-sm font-bold tracking-wider uppercase dark:text-gray-600">Technologies I Work With</span> */}
                                 <h1 className='before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto before:dark:bg-violet-600'> </h1>
 

@@ -21,8 +21,6 @@ const Home = () => {
             <AboutMe></AboutMe>
             <HomeProject></HomeProject>
 
-
-
             <Newsletter></Newsletter>
             <Blogs></Blogs>
             <WorkWithClient></WorkWithClient>
