@@ -71,9 +71,15 @@ const TopBanner = () => {
                    SLIDE 1 – Intro: "Hello, I'm Sagor Chowdhury"
                 ========================================================= */}
                 <div
-                    className="hero min-h-[90vh] md:min-h-screen bg-cover bg-center"
-                    style={{ backgroundImage: `url(${bgCoverImg})` }}
+                    className="hero bg-cover bg-center"
+                    style={{
+                        backgroundImage: `url(${bgCoverImg})`,
+                        minHeight: "600px",
+                        maxHeight: "800px",
+                    }}
                 >
+
+
                     <div className="flex flex-col-reverse md:flex-row items-center justify-between w-full max-w-7xl mx-auto px-6 md:px-12">
 
                         {/* ===== Left Text Section ===== */}
@@ -117,9 +123,14 @@ const TopBanner = () => {
                    SLIDE 2 – SEO Collaboration
                 ========================================================= */}
                 <div
-                    className="hero min-h-[90vh] md:min-h-screen bg-cover bg-center"
-                    style={{ backgroundImage: `url(${bgCoverImg})` }}
+                    className="hero bg-cover bg-center"
+                    style={{
+                        backgroundImage: `url(${bgCoverImg})`,
+                        minHeight: "600px",
+                        maxHeight: "800px",
+                    }}
                 >
+
                     <div className="flex flex-col-reverse md:flex-row items-center justify-between w-full max-w-7xl mx-auto px-6 md:px-12">
 
                         {/* Left Text Section */}
@@ -161,9 +172,14 @@ const TopBanner = () => {
                    SLIDE 3 – Personal Brand
                 ========================================================= */}
                 <div
-                    className="hero min-h-[90vh] md:min-h-screen bg-cover bg-center"
-                    style={{ backgroundImage: `url(${bgCoverImg})` }}
+                    className="hero bg-cover bg-center"
+                    style={{
+                        backgroundImage: `url(${bgCoverImg})`,
+                        minHeight: "600px",
+                        maxHeight: "800px",
+                    }}
                 >
+
                     <div className="flex flex-col-reverse md:flex-row items-center justify-between w-full max-w-7xl mx-auto px-6 md:px-12">
 
                         {/* Left Text Section */}

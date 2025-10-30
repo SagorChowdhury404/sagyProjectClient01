@@ -1,0 +1,21 @@
+[
+  {
+    "title": "Web Apps Development",
+    "description": "Modern, responsive web apps built to perform and scale. I turn ideas into functional digital solutions.",
+    "link": "WebAppsDevelopment",
+    "icon": "/src/assets/categorySvg/developer.png"
+  },
+  {
+    "title": "SEO Techniques to Rank",
+    "description": "Smart SEO strategies that help your site rank higher. Get more traffic, visibility, and lasting growth.",
+    "link": "SeoPages",
+    "icon": "/src/assets/categorySvg/target.png"
+  },
+  {
+    "title": "LinkedIn Profile Optimization",
+    "description": "Transform your LinkedIn into a lead-generating machine. I design profiles that attract clients and opportunities.",
+    "link": "LinkedinPages",
+    "icon": "/src/assets/categorySvg/linkedin (1).png"
+  }
+  
+]

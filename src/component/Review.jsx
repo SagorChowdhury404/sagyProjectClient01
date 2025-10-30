@@ -70,8 +70,8 @@ const Avatar = ({ initials, size = "w-16 h-16", bgColor = "bg-neutral" }) => (
 
 const Review = () => {
   return (
-    <section className="py-16 overflow-hidden">
-      <div className="max-w-6xl mx-auto px-6">
+    <section className="py-16 overflow-hidden bg-gray-50">
+      <div className="max-w-6xl mx-auto">
         {/* Title */}
         <div className="mb-12 text-left">
           <p className="text-sm text-[#FFB02E] font-semibold uppercase tracking-wider">

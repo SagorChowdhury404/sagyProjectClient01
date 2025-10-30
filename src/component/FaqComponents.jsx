@@ -69,7 +69,7 @@ const FaqComponents = () => {
 	];
 
 	return (
-		<section className="bg-gray-50 py-16 dark:bg-gray-100 dark:text-gray-800 lg:px-32">
+		<section className="bg-gradient-to-b from-white via-gray-50  to-white py-16  dark:text-gray-800 lg:px-32">
 			<div className="max-w-6xl px-6 mx-auto">
 				<p className="p-2 text-2xl font-bold tracking-wider text-center uppercase text-black">
 					How it works
@@ -92,17 +92,15 @@ const FaqComponents = () => {
 							<div key={step.id}>
 								<button
 									onClick={() => toggleAccordion(step.id)}
-									className={`w-full flex justify-between items-center px-5 py-3 rounded-md text-left font-semibold transition-all duration-300 ${
-										activeIndex === step.id
+									className={`w-full flex justify-between items-center px-5 py-3 rounded-md text-left font-semibold transition-all duration-300 ${activeIndex === step.id
 											? "bg-black text-white"
 											: "bg-gray-100 text-gray-700 hover:bg-gray-200"
-									}`}
+										}`}
 								>
 									<span>{step.title}</span>
 									<FaChevronDown
-										className={`transition-transform duration-300 ${
-											activeIndex === step.id ? "rotate-180" : ""
-										}`}
+										className={`transition-transform duration-300 ${activeIndex === step.id ? "rotate-180" : ""
+											}`}
 									/>
 								</button>
 							</div>

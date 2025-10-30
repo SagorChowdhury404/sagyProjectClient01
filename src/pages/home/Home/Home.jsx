@@ -24,7 +24,7 @@ const Home = () => {
             <Review></Review>
             {/* <Newsletter></Newsletter> */}
             {/* <Blogs></Blogs> */}
-            <WorkWithClient></WorkWithClient>
+            {/* <WorkWithClient></WorkWithClient> */}
 
             <Contact></Contact>
 

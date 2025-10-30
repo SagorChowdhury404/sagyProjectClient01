@@ -18,7 +18,7 @@ const Contact = () => {
         alert("Message sent successfully!");
     };
     return (
-           <div className="pt-10 pb-20 bg-gray-50">
+           <div className="pt-10 pb-20 bg-gray-50 ">
             {/* Meta Title */}
             {/* <HelmetTittle
                 tittle="Social | Contact"

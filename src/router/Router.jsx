@@ -26,10 +26,6 @@ export const router = createBrowserRouter([
                 element: <Home></Home>,
             },
             {
-                path: "/MoreAboutMe",
-                element: <MoreAboutMe></MoreAboutMe>,
-            },
-            {
                 path: "/WebAppsDevelopment",
                 element: <WebAppsDevelopment></WebAppsDevelopment>,
             },
@@ -40,6 +36,11 @@ export const router = createBrowserRouter([
             {
                 path: "/SeoPages",
                 element: <SeoPages></SeoPages>,
+            },
+
+            {
+                path: "/MoreAboutMe",
+                element: <MoreAboutMe></MoreAboutMe>,
             },
 
             {

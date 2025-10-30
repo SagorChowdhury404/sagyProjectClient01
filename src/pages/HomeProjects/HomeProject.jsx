@@ -20,7 +20,7 @@ const HomeProject = () => {
     const staticWeb = projects.filter(project => project.projectCategory === "Static");
 
     return (
-        <div className=" py-16">
+        <div className=" py-16 bg-gray-50">
             <Helmet>
                 <title>My Recent Work | Sagor Portfolio</title>
             </Helmet>

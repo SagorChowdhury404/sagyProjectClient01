@@ -7,16 +7,17 @@ import socialImgInstagram from "../../assets/socialIcoin/instagram.png";
 import socialImgGithub from "../../assets/socialIcoin/github.png";
 import socialImgYoutube from "../../assets/socialIcoin/youtube.png";
 import profileImg from "../../assets/bannar/hero2.png"; // Add your image path here
+import { Link } from "react-router-dom";
 
 const AboutMe = () => {
     return (
-        <div className="">
+        <div className=" bg-gradient-to-b from-white via-gray-50 to-white">
             {/* <section className="pt-10">
                 <SectionTitle heading="About me"></SectionTitle>
-            </section> */} 
+            </section> */}
 
             {/* ===== Main Banner Section ===== */}
-            <section className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20 px-6 md:px-20 py-5">
+            <section className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20 px-6 md:px-20 ">
                 {/* === Left Image === */}
                 <div className="relative flex justify-center md:justify-end w-full md:w-1/2">
                     <div className="relative">
@@ -73,10 +74,13 @@ const AboutMe = () => {
                             </a>
                         </div>
                     </div>
+                    <Link to="/contact">
 
-                    <button className="mt-8 bg-black text-white px-6 py-3 rounded-md font-semibold hover:bg-[#1a1a1a] transition">
-                        Download My Resume
-                    </button>
+
+                        <button className="mt-8 bg-blue-700 text-white px-10 py-3 rounded-md font-semibold hover:bg-[#1a1a1a] transition">
+                            Let’s Talk ↗
+                        </button>
+                    </Link>
                 </div>
             </section>
         </div>
