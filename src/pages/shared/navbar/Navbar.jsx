@@ -123,11 +123,11 @@ const Navbar = () => {
 
 
 
-            <Link to='/dashboard/cart'>
+            {/* <Link to='/dashboard/cart'>
               <button className="btn bg-white text-black">
                 <FaCartPlus /> <div className="badge badge-sm badge-secondary">+</div>
               </button>
-            </Link>
+            </Link> */}
 
 
 

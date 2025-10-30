@@ -19,14 +19,15 @@ const Home = () => {
             <TopBanner></TopBanner>
             <CategoryList></CategoryList>
             <AboutMe></AboutMe>
-            <HomeProject></HomeProject>
-
-            <Newsletter></Newsletter>
-            <Blogs></Blogs>
-            <WorkWithClient></WorkWithClient>
             <FaqComponents></FaqComponents>
-            <Contact></Contact>
+            <HomeProject></HomeProject>
             <Review></Review>
+            {/* <Newsletter></Newsletter> */}
+            {/* <Blogs></Blogs> */}
+            <WorkWithClient></WorkWithClient>
+
+            <Contact></Contact>
+
         </div>
     );
 };

@@ -1,68 +1,59 @@
+// import { ArrowUpRight } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const ProjectCard = ({ project }) => {
-    const { bannerImage, title, description, id, technologyUsed, liveLink } = project;
+  const { bannerImage, title, projectCategory, liveLink } = project;
 
-    return (
-        <div className="max-w-lg shadow-md rounded-md bg-white dark:bg-gray-900 dark:text-gray-200 border border-gray-200 dark:border-gray-700">
-            {/* Image */}
-            <img
-                src={bannerImage}
-                alt={`${title} banner`}
-                className="block object-cover object-center w-full rounded-t-md h-52"
-            />
+  return (
+    <div className=" rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
+      {/* Image */}
+      <div className="overflow-hidden">
+        <img
+          src={bannerImage}
+          alt={title}
+          className="w-full h-56 object-cover transform hover:scale-110 transition-transform duration-500"
+        />
+      </div>
 
-            <div className="p-4">
-                {/* Title */}
-                <h3 className="text-lg font-semibold">{title}</h3>
-
-                {/* Description with inline link */}
-                <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
-                    {description}{" "}
-                    <Link
-                        to={`/project/${id}`}
-                        className="underline text-blue-500 hover:text-blue-600"
-                    >
-                        click here
-                    </Link>
-                </p>
-
-                {/* Tech Stack */}
-                <h4 className="text-sm font-medium mt-3">Technology Used:</h4>
-                <div className="flex flex-wrap gap-2 mt-2">
-                    {technologyUsed.map((tech, index) => (
-                        <span
-                            key={index}
-                            className="px-2 py-1 text-xs font-medium bg-gray-100 text-gray-700 rounded-full dark:bg-gray-800 dark:text-gray-300"
-                        >
-                            {tech}
-                        </span>
-                    ))}
-                </div>
-
-                {/* Buttons */}
-                <div className="flex gap-3 mt-4 justify-evenly ">
-                    {/* Live Site Button */}
-                    <a
-                        href={liveLink}
-
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="px-3 py-1 text-sm rounded-md bg-blue-800 text-white hover:bg-gray-700 transition"
-                    >
-                        Live Site
-                    </a>
-
-                    {/* Details Button */}
-                    <Link to={`/project/${id}`}>
-                        <button className="px-3 py-1 text-sm rounded-md border border-gray-400 bg-blue-800  dark:hover:bg-gray-800 transition">
-                            More Details
-                        </button>
-                    </Link>
-                </div>
-            </div>
+      {/* Content */}
+      <div className="p-5 flex flex-col items-start justify-between h-40">
+        {/* Tags */}
+        <div className="flex flex-wrap gap-2 mb-3">
+          <span className="px-3 py-1 text-xs font-semibold rounded-full bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-gray-300">
+            APP
+          </span>
+          <span className="px-3 py-1 text-xs font-semibold rounded-full bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-gray-300">
+            {projectCategory}
+          </span>
         </div>
-    );
+
+        {/* Title */}
+        <h3 className="text-lg font-semibold text-gray-900 dark:text-black mb-2">
+          {title}  ↗
+        </h3>
+
+        {/* View Project */}
+        <div className="flex items-center justify-between w-full mt-auto">
+          <Link
+            to={`/project/${project.id}`}
+            className="text-sm font-medium text-gray-800 dark:text-black-200 hover:text-[#FFB02E] transition-colors flex items-center gap-1"
+          >
+            View Project 
+            {/* <ArrowUpRight size={16} /> */}
+          </Link>
+
+          <a
+            href={liveLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm font-medium text-[#FFB02E] hover:text-black dark:hover:text-white transition-colors flex items-center gap-1"
+          >
+            Live ↗
+          </a>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default ProjectCard;
