@@ -5,12 +5,13 @@ import Home from "../pages/home/Home/Home";
 import MoreAboutMe from "../pages/aboutMe/MoreAboutMe";
 import Contact from "../pages/shared/contact/Contact";
 import ProjectAll from "../pages/ProjectsPage/ProjectAll";
-import Blogs from "../pages/BlogPages/Blogs";
 import Services from "../pages/shared/services/Services";
 import ProjectCardDetails from "../pages/HomeProjects/projectCardDetails/ProjectCardDetails";
 import WebAppsDevelopment from "../pages/whatIDo/WebAppsDevelopment";
 import LinkedinPages from "../pages/whatIDo/LinkedinPages";
 import SeoPages from "../pages/whatIDo/SeoPages";
+import Blogs from "../pages/BlogPages/Blogs/Blogs";
+import BlogDetails from "../pages/BlogPages/BlogDetails/BlogDetails";
 
 
 
@@ -62,12 +63,25 @@ export const router = createBrowserRouter([
                     // find project by id
                     return data.find(p => p.id.toString() === params.id);
                 },
-            }
-            ,
+            },
             {
                 path: "/blogs",
-                element: <Blogs ></Blogs>,
+                element: <Blogs></Blogs>,
             },
+            {
+                path: "/blogs/:id",
+                element: <BlogDetails />,
+                loader: async ({ params }) => {
+                    // Example: fetch from local JSON (public/projects.json)
+                    const res = await fetch("/blogs.json");
+                    const data = await res.json();
+
+                    // find project by id
+                    return data.find(p => p.id.toString() === params.id);
+                },
+            },
+            
+
             {
                 path: "/contact",
                 element: <Contact></Contact>,

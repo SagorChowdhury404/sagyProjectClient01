@@ -5,11 +5,9 @@ import AboutMe from '../../aboutMe/AboutMe';
 import Contact from '../../shared/contact/Contact';
 import FaqComponents from '../../../component/FaqComponents';
 import Review from '../../../component/Review';
-import Newsletter from '../../../component/Newsletter';
 import HomeProject from '../../HomeProjects/HomeProject';
 import { Helmet } from 'react-helmet-async';
-import Blogs from '../../BlogPages/Blogs';
-import WorkWithClient from '../../workwith/WorkWithClient';
+import Blogs from '../../BlogPages/Blogs/Blogs';
 
 
 const Home = () => {
@@ -23,7 +21,7 @@ const Home = () => {
             <HomeProject></HomeProject>
             <Review></Review>
             {/* <Newsletter></Newsletter> */}
-            {/* <Blogs></Blogs> */}
+            <Blogs></Blogs>
             {/* <WorkWithClient></WorkWithClient> */}
 
             <Contact></Contact>

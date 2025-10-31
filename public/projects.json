@@ -1,11 +1,9 @@
 [
-
-  
   {
     "id": "proj1",
     "category": "webProject",
     "projectCategory": "webApp",
-    "headVideo":"https://youtube.com/shorts/tmCEoaNe9TQ?si=I81LkcluR9YGCm69",
+    "headVideo": "https://www.youtube.com/watch?v=VmYPw3bYVZo",
     "bannerImage": "https://tse1.mm.bing.net/th/id/OIP.sRb5fMcTmEDo1zTaUr8GQgHaEJ?pid=Api",
     "allImages": [
       "https://source.unsplash.com/random/300x200/?kitchen",
@@ -15,7 +13,7 @@
       "https://source.unsplash.com/random/300x200/?food"
     ],
     "title": "Restaurant Management System 01",
-    "description": "This web app is designed for chefs and bar workers...",
+    "description": "This web app is designed for chefs and bar workers to manage inventory, orders, and reports efficiently.",
     "technologyUsed": [
       "React",
       "Node.js",
@@ -27,9 +25,27 @@
     "sharesCount": 12,
     "savesCount": 5,
     "commentsCount": 8,
-    "likesCount": 43
+    "likesCount": 43,
+    "overview": "Abcd One is a modern dashboard...",
+    "problem": "Old design was cluttered...",
+    "goals": [
+      "Accessible design",
+      "Modern UI",
+      "Responsive layout"
+    ],
+    "keyFeatures": [
+      "Dynamic widgets",
+      "Dark mode",
+      "Realtime analytics"
+    ],
+    "process": [
+      "Research",
+      "Design",
+      "Development",
+      "Testing"
+    ],
+    "results": "Improved user satisfaction by 60%."
   },
- 
   {
     "id": "proj2",
     "category": "webProject",
@@ -38,12 +54,10 @@
     "allImages": [
       "https://source.unsplash.com/random/300x200/?kitchen",
       "https://source.unsplash.com/random/300x200/?chef",
-      "https://source.unsplash.com/random/300x200/?restaurant",
-      "https://source.unsplash.com/random/300x200/?bar",
-      "https://source.unsplash.com/random/300x200/?food"
+      "https://source.unsplash.com/random/300x200/?restaurant"
     ],
-    "title": " blog Restaurant Management System",
-    "description": "This web app is designed for chefs and bar workers...",
+    "title": "Blog Restaurant Management System",
+    "description": "A dynamic restaurant web app with blog integration and admin control.",
     "technologyUsed": [
       "React",
       "Node.js",
@@ -55,35 +69,67 @@
     "sharesCount": 12,
     "savesCount": 5,
     "commentsCount": 8,
-    "likesCount": 43
+    "likesCount": 43,
+    "overview": "Abcd One is a modern dashboard...",
+    "problem": "Old design was cluttered...",
+    "goals": [
+      "Accessible design",
+      "Modern UI",
+      "Responsive layout"
+    ],
+    "keyFeatures": [
+      "Dynamic widgets",
+      "Dark mode",
+      "Realtime analytics"
+    ],
+    "process": [
+      "Research",
+      "Design",
+      "Development",
+      "Testing"
+    ],
+    "results": "Improved user satisfaction by 60%."
   },
- 
   {
     "id": "proj3",
     "category": "webProject",
     "projectCategory": "Landing",
-    "bannerImage": "https://source.unsplash.com/random/800x400/?food,chef",
+    "bannerImage": "https://source.unsplash.com/random/800x400/?landing,website",
     "allImages": [
-      "https://source.unsplash.com/random/300x200/?kitchen",
-      "https://source.unsplash.com/random/300x200/?chef",
-      "https://source.unsplash.com/random/300x200/?restaurant",
-      "https://source.unsplash.com/random/300x200/?bar",
-      "https://source.unsplash.com/random/300x200/?food"
+      "https://source.unsplash.com/random/300x200/?design",
+      "https://source.unsplash.com/random/300x200/?web",
+      "https://source.unsplash.com/random/300x200/?code"
     ],
-    "title": " blog Restaurant Management System",
-    "description": "This web app is designed for chefs and bar workers...",
+    "title": "Landing Page Showcase",
+    "description": "A clean, modern landing page optimized for conversion and SEO.",
     "technologyUsed": [
       "React",
-      "Node.js",
-      "Express",
-      "MongoDB",
-      "TailwindCSS"
+      "TailwindCSS",
+      "Framer Motion"
     ],
-    "liveLink": "https://restaurant-management.example.com",
-    "sharesCount": 12,
-    "savesCount": 5,
-    "commentsCount": 8,
-    "likesCount": 43
+    "liveLink": "https://landingpage.example.com",
+    "sharesCount": 18,
+    "savesCount": 9,
+    "commentsCount": 3,
+    "likesCount": 58,
+    "overview": "Abcd One is a modern dashboard...",
+    "problem": "Old design was cluttered...",
+    "goals": [
+      "Accessible design",
+      "Modern UI",
+      "Responsive layout"
+    ],
+    "keyFeatures": [
+      "Dynamic widgets",
+      "Dark mode",
+      "Realtime analytics"
+    ],
+    "process": [
+      "Research",
+      "Design",
+      "Development",
+      "Testing"
+    ],
+    "results": "Improved user satisfaction by 60%."
   }
- 
 ]

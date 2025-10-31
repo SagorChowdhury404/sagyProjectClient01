@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "category": "Technology",
+    "tag": "Trending",
+    "title": "Right-to-left behind development in mobile web design",
+    "image": "/blogs/blog1.jpg",
+    "comments": 80,
+    "readTime": "5 min read",
+    "link": "#"
+  },
+  {
+    "id": 2,
+    "category": "Science",
+    "tag": "Trending",
+    "title": "Connect craft: Reading the smart experience",
+    "image": "/blogs/blog2.jpg",
+    "comments": 40,
+    "readTime": "6 min read",
+    "link": "#"
+  },
+  {
+    "id": 3,
+    "category": "Skincare",
+    "tag": "Trending",
+    "title": "Ecoglow: Sustainable skincare a brighter tomorrow",
+    "image": "/blogs/blog3.jpg",
+    "comments": 50,
+    "readTime": "7 min read",
+    "link": "#"
+  },
+  {
+    "id": 4,
+    "category": "Development",
+    "tag": "Trending",
+    "title": "Right-to-left behind development in mobile web design",
+    "image": "/blogs/blog4.jpg",
+    "comments": 60,
+    "readTime": "4 min read",
+    "link": "#"
+  }
+]

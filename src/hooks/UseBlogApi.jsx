@@ -7,7 +7,8 @@ const UseBlogApi = () => {
     console.log('/blogs',blogs)
 
     useEffect(() => {
-        fetch('http://localhost:3000/blogs')
+        
+        fetch('blogs.json')
             .then(response => response.json())
             .then(json => {
                 setBlogs(json);

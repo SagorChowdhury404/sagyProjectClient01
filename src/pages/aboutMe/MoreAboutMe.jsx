@@ -81,11 +81,11 @@ const MoreAboutMe = () => {
     ];
 
     return (
-        <div className="dark:bg-gray-100 dark:text-gray-800">
+        <div className="bg-gray-50  ">
             <Helmet> <title>AboutMe</title> </Helmet>
 
             {/* Education Section */}
-            <section className="container max-w-5xl px-4 py-12 mx-auto">
+            {/* <section className="container max-w-5xl px-4 py-12 mx-auto">
                 <div className="grid gap-4 sm:grid-cols-12">
                     <div className="col-span-12 sm:col-span-3">
                         <div className="text-center sm:text-left mb-14 before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto sm:before:mx-0 before:dark:bg-violet-600">
@@ -110,13 +110,13 @@ const MoreAboutMe = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             {/* Skills Section */}
-            <section className="container max-w-5xl px-4 py-10 mx-auto">
+            <section className="container max-w-5xl px-4 py-10 mx-auto ">
                 <div className="text-center mb-14 before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto before:dark:bg-violet-600">
-                    <h3 className="text-3xl font-semibold">My Skills</h3>
-                    <span className="text-sm font-bold tracking-wider uppercase dark:text-gray-600">Technologies I Work With</span>
+                    <h3 className="text-3xl font-semibold">Specialities</h3>
+                    <span className="font-bold tracking-wider uppercase dark:text-gray-600 text-2xl">All over my skills find here...</span>
                 </div>
 
                 <SkillSection title="Frontend Technologies" tools={frontendTechs} />

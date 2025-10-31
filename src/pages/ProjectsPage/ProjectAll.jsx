@@ -83,7 +83,7 @@ const ProjectAll = () => {
 
 
                 {/* Web App / Dynamic Website */}
-                <div className="p-4">
+                <div className="p-4 bg-gray-50 ">
                     {activeTab === "Web" &&
 
                         <section>

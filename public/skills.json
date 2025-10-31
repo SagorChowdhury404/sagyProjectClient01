@@ -1,0 +1,30 @@
+{
+  "frontendTechs": [
+    { "name": "HTML5", "icon": "/assets/TechnologyImg/icon-html5.png" },
+    { "name": "CSS3", "icon": "/assets/TechnologyImg/icons-css3.png" },
+    { "name": "JavaScript E6", "icon": "/assets/TechnologyImg/icon-javascript.png" },
+    { "name": "ReactJS", "icon": "/assets/TechnologyImg/icons-react-js.png" },
+    { "name": "Tailwind", "icon": "/assets/TechnologyImg/icon-tailwind-css.png" },
+    { "name": "DaisyUI", "icon": "/assets/TechnologyImg/icons-daisy.png" },
+    { "name": "Axios", "icon": "/assets/TechnologyImg/react-axios.png" }
+  ],
+  "backendTechs": [
+    { "name": "ExpressJS", "icon": "/assets/TechnologyImg/icon-node-js.png" },
+    { "name": "NodeJS", "icon": "/assets/TechnologyImg/icon-nodejs.png" },
+    { "name": "MongoDB", "icon": "/assets/TechnologyImg/icon-mongodb.png" },
+    { "name": "REST API", "icon": "/assets/TechnologyImg/icon-rest-api.png" }
+  ],
+  "authTools": [
+    { "name": "Firebase", "icon": "/assets/TechnologyImg/icons-firebase.png" },
+    { "name": "JWT", "icon": "/assets/TechnologyImg/icon-jwt.png" },
+    { "name": "AccessRole", "icon": "/assets/TechnologyImg/icons-access.png" },
+    { "name": "Validation", "icon": "/assets/TechnologyImg/icon-validation (2).png" }
+  ],
+  "versionControl": [
+    { "name": "GitHub", "icon": "/assets/TechnologyImg/icons-github.png" },
+    { "name": "Hosting", "icon": "/assets/TechnologyImg/icons-hosting.png" }
+  ],
+  "otherTools": [
+    { "name": "Figma", "icon": "/assets/TechnologyImg/icons-hosting.png" }
+  ]
+}
