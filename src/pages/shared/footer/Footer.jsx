@@ -14,7 +14,7 @@ const Footer = () => {
             </h2>
             <p className="text-sm mb-4">Based in Dubai</p>
             <div className="flex gap-4 text-lg">
-              <a href="#" className="hover:text-[#FFB02E] transition-colors">
+              <a href="https://www.linkedin.com/in/sagy" className="hover:text-[#FFB02E] transition-colors">
                 <FaLinkedinIn />
               </a>
               <a href="#" className="hover:text-[#FFB02E] transition-colors">
@@ -30,10 +30,10 @@ const Footer = () => {
           <div className="border border-gray-700 rounded-2xl p-6 hover:border-[#FFB02E] transition-colors">
             <p className="text-gray-400 mb-2">Looking for a hectic developer?</p>
             <a
-              href="mailto:hello@cibc.com"
+              href="sagorchowdhury404@gmail.com"
               className="text-[#FFB02E] text-lg font-semibold flex items-center gap-2"
             >
-              hello@cibc.com <span>↗</span>
+             sagorchowdhury404@gmail.com <span>↗</span>
             </a>
           </div>
 
@@ -46,7 +46,7 @@ const Footer = () => {
               href="tel:+1234567890"
               className="text-[#FFB02E] text-lg font-semibold flex items-center gap-2"
             >
-              +123 456 7890 <span>↗</span>
+              +971557235562 <span>↗</span>
             </a>
           </div>
         </div>

@@ -7,21 +7,12 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter', 'sans-serif'], // 👈 add a comma after this line if more comes below
+        sans: ['Inter', 'sans-serif'],
+      },
+      animation: {
+        "spin-slow": "spin 6s linear infinite", // 👈 your slow spin animation
       },
     },
   },
   plugins: [require("daisyui")],
 }
-
-
-
-
-
-
-
-
-
-
-
-

@@ -35,7 +35,7 @@ const HomeProject = () => {
             </section>
 
             {/* ===== Tabs ===== */}
-            <div className="flex justify-center space-x-6 mb-8">
+            <div className="flex justify-center md:space-x-6 mb-8">
                 {["webApp", "Landing", "Static"].map(tab => (
                     <button
                         key={tab}

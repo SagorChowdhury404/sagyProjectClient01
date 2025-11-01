@@ -1,7 +1,7 @@
 [
   {
-    "title": "Web Apps Development",
-    "description": "Modern, responsive web apps built to perform and scale. I turn ideas into functional digital solutions.",
+    "title": "Web Development",
+    "description": "Modern, responsive web built to perform and scale. I turn ideas into functional digital solutions.",
     "link": "WebAppsDevelopment",
     "icon": "/src/assets/categorySvg/developer.png"
   },
@@ -17,5 +17,4 @@
     "link": "LinkedinPages",
     "icon": "/src/assets/categorySvg/linkedin (1).png"
   }
-  
 ]

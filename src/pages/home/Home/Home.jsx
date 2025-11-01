@@ -18,10 +18,10 @@ const Home = () => {
             <CategoryList></CategoryList>
             <AboutMe></AboutMe>
             <FaqComponents></FaqComponents>
-            <HomeProject></HomeProject>
+            {/* <HomeProject></HomeProject> */}
             <Review></Review>
             {/* <Newsletter></Newsletter> */}
-            <Blogs></Blogs>
+            {/* <Blogs></Blogs> */}
             {/* <WorkWithClient></WorkWithClient> */}
 
             <Contact></Contact>

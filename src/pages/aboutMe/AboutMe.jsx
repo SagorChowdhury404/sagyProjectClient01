@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 
 const AboutMe = () => {
     return (
-        <div className=" bg-gradient-to-b from-white via-gray-50 to-white">
+        <div id="contact-section" className="  bg-gradient-to-b from-white via-gray-50 to-white">
             {/* <section className="pt-10">
                 <SectionTitle heading="About me"></SectionTitle>
             </section> */}
@@ -27,7 +27,7 @@ const AboutMe = () => {
                             alt="Sagar Chowdhury"
                             className=" rounded-xl object-cover shadow-lg"
                         />
-                        <div className="absolute bottom-[-20px] left-1/2  bg-[#FFB02E] text-black font-bold px-4 py-2 rounded-md shadow-lg text-4xl">
+                        <div className="absolute bottom-[-20px] md:left-1/2  bg-[#FFB02E] text-black font-bold px-4 py-2 rounded-md shadow-lg text-4xl text-center">
                             1+ Year of Experience
                         </div>
                     </div>

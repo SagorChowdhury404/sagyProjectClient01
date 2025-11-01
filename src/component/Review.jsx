@@ -3,61 +3,62 @@ import React from "react";
 const reviews = [
   {
     id: 1,
-    text: "Energetically build alternative scenarios via cross-unit applications. Credibly exploit one-to-one strategic theme areas and clicks-and-mortar services, its best experience ever.",
-    name: "Jhon Smith",
+    text: "Sagor delivered our web application ahead of schedule with clean, scalable code and an eye for detail. The final result exceeded expectations — both in design and performance.",
+    name: "John Smith",
     initials: "JS",
     rating: 5,
   },
   {
     id: 2,
-    text: "Unleash adaptive strategies via cross-unit build efficient initiatives for distinctive vortals. Synergistically strategize via adaptive methods.",
+    text: "Working with Sagor was a great experience. He quickly understood our requirements and transformed our ideas into a fast, responsive, and user-friendly website.",
     name: "Sarah Johnson",
     initials: "SJ",
-    rating: 4,
+    rating: 5,
   },
   {
     id: 3,
-    text: "Aliquam vehicula nunc facilisis tincidunt feugiat. Pellentesque sed viverra nisl. Fusce et laoreet augue. Quisque pretium ligula lectus semper urna.",
+    text: "Highly professional and technically skilled developer. Sagor optimized our site speed and improved our SEO ranking significantly within a few weeks.",
     name: "Michael Lee",
     initials: "ML",
     rating: 5,
   },
   {
     id: 4,
-    text: "Collaboratively leverage agile frameworks to provide a robust synopsis for high-level overviews.",
+    text: "We hired Sagor for a complete redesign of our eCommerce platform. His approach was modern, creative, and focused on user experience. Our conversion rates have doubled since launch.",
     name: "Emma Brown",
     initials: "EB",
-    rating: 3,
+    rating: 5,
   },
   {
     id: 5,
-    text: "Completely synergize resource taxing relationships via premier niche markets.",
+    text: "Sagor is an excellent communicator who pays attention to detail. He provided regular updates throughout the project and made sure everything worked perfectly before delivery.",
     name: "David Miller",
     initials: "DM",
     rating: 4,
   },
   {
     id: 6,
-    text: "Objectively innovate empowered manufactured products whereas parallel platforms.",
+    text: "From the initial consultation to final deployment, Sagor handled every step smoothly. His full-stack knowledge and problem-solving skills are truly impressive.",
     name: "Sophia Wilson",
     initials: "SW",
     rating: 5,
   },
   {
     id: 7,
-    text: "Seamlessly visualize quality intellectual capital without superior collaboration.",
+    text: "Sagor built our business website using the MERN stack and integrated custom admin features. The backend is powerful yet simple to manage — exactly what we needed.",
     name: "Robert Taylor",
     initials: "RT",
-    rating: 4,
+    rating: 5,
   },
   {
     id: 8,
-    text: "Holisticly predominate extensible testing procedures for reliable supply chains.",
+    text: "Incredible work ethic and passion for development. Sagor not only completed our project but also suggested valuable improvements that made our app more efficient.",
     name: "Olivia White",
     initials: "OW",
     rating: 5,
   },
 ];
+
 
 // Dynamic Avatar Component
 const Avatar = ({ initials, size = "w-16 h-16", bgColor = "bg-neutral" }) => (
